@@ -18,6 +18,6 @@ func main() {
 
 	execErr := syscall.Exec(binary, args, env)
 	if execErr != nil {
-		panic (execErr)
+		panic(execErr)
 	}
 }
